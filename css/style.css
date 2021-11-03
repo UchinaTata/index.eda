@@ -362,6 +362,7 @@ body {
   color: #AAAAB1;
 }
 .button-outline {
+  cursor: pointer;
   background-color: transparent;
   padding: 15px 25px;
   border: 2px solid #F37321;
@@ -371,4 +372,63 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #F37321;
+}
+.button-center {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 315px;
+}
+.our-advantages-container {
+  background-color: #e5ffbb;
+  padding-top: 166px;
+  padding-bottom: 166px;
+}
+.our-advantages {
+  height: 296px;
+  width: 270px;
+}
+.our-advantages-img {
+  padding-top: 30px;
+  padding-left: 105px;
+  padding-right: 105px;
+}
+.our-advantages-content {
+  padding-top: 14px;
+  text-align: center;
+}
+.our-advantages-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+}
+.our-advantages-description {
+  font-size: 14px;
+  line-height: 22px;
+}
+.footer {
+  background: #F6F6F6;
+  padding: 40px 0px;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  margin-right: 50px;
+}
+.footer-link {
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+  margin-right: 50px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.social-link {
+  margin-left: 20px;
+  text-decoration: none;
 }
